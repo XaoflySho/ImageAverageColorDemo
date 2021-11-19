@@ -23,8 +23,14 @@
                                     <constraint firstAttribute="height" constant="240" id="UNL-Y9-GbX"/>
                                 </constraints>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WVj-kn-xMa">
+                                <rect key="frame" x="207" y="456" width="0.0" height="0.0"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sMx-D7-PgQ">
-                                <rect key="frame" x="147" y="512" width="120" height="31"/>
+                                <rect key="frame" x="147" y="500" width="120" height="31"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Select image..."/>
                                 <connections>
@@ -37,12 +43,15 @@
                         <constraints>
                             <constraint firstItem="gaB-CC-bTu" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="BVn-97-AJv"/>
                             <constraint firstItem="gaB-CC-bTu" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-120" id="WtL-p1-m7C"/>
-                            <constraint firstItem="sMx-D7-PgQ" firstAttribute="top" secondItem="gaB-CC-bTu" secondAttribute="bottom" constant="64" id="gnR-XZ-ZiK"/>
+                            <constraint firstItem="WVj-kn-xMa" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="bNg-v2-dpQ"/>
+                            <constraint firstItem="WVj-kn-xMa" firstAttribute="top" secondItem="gaB-CC-bTu" secondAttribute="bottom" constant="8" symbolic="YES" id="fTv-SQ-ugo"/>
+                            <constraint firstItem="sMx-D7-PgQ" firstAttribute="top" secondItem="WVj-kn-xMa" secondAttribute="bottom" constant="44" id="jRi-dy-CRT"/>
                             <constraint firstItem="sMx-D7-PgQ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="nRU-Mi-JNa"/>
                         </constraints>
                     </view>
                     <connections>
                         <outlet property="imageView" destination="gaB-CC-bTu" id="IUD-hN-fYt"/>
+                        <outlet property="label" destination="WVj-kn-xMa" id="anC-bg-eUB"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

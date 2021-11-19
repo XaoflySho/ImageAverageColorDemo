@@ -11,6 +11,7 @@ import PhotosUI
 class ViewController: UIViewController {
     
     @IBOutlet var imageView: UIImageView!
+    @IBOutlet var label: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -39,6 +40,8 @@ extension ViewController: PHPickerViewControllerDelegate {
                         self.imageView.image = image
                         if let color = image.averageColor {
                             self.view.backgroundColor = color
+                            self.label.textColor = color.isBright ? .darkText : .lightText
+                            self.label.text = color.isBright ? "Bright color" : "Dark color"
                         }
                     }
                 }
