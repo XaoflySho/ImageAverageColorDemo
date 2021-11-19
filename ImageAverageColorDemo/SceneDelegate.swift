@@ -2,7 +2,7 @@
 //  SceneDelegate.swift
 //  ImageAverageColorDemo
 //
-//  Created by 邵晓飞 on 2021/11/19.
+//  Created by XaoflySho on 2021/11/19.
 //
 
 import UIKit

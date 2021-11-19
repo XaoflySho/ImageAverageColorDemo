@@ -13,6 +13,7 @@
 		17B9772F2747A1AE007CD95C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17B9772D2747A1AE007CD95C /* Main.storyboard */; };
 		17B977312747A1B0007CD95C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17B977302747A1B0007CD95C /* Assets.xcassets */; };
 		17B977342747A1B0007CD95C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17B977322747A1B0007CD95C /* LaunchScreen.storyboard */; };
+		17B9773C2747A234007CD95C /* ImageAverageColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17B9773B2747A234007CD95C /* ImageAverageColor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		17B977302747A1B0007CD95C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		17B977332747A1B0007CD95C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		17B977352747A1B0007CD95C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17B9773B2747A234007CD95C /* ImageAverageColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageAverageColor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				17B977272747A1AE007CD95C /* AppDelegate.swift */,
 				17B977292747A1AE007CD95C /* SceneDelegate.swift */,
 				17B9772B2747A1AE007CD95C /* ViewController.swift */,
+				17B9773B2747A234007CD95C /* ImageAverageColor.swift */,
 				17B9772D2747A1AE007CD95C /* Main.storyboard */,
 				17B977302747A1B0007CD95C /* Assets.xcassets */,
 				17B977322747A1B0007CD95C /* LaunchScreen.storyboard */,
@@ -141,6 +144,7 @@
 				17B9772C2747A1AE007CD95C /* ViewController.swift in Sources */,
 				17B977282747A1AE007CD95C /* AppDelegate.swift in Sources */,
 				17B9772A2747A1AE007CD95C /* SceneDelegate.swift in Sources */,
+				17B9773C2747A234007CD95C /* ImageAverageColor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
